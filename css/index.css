@@ -1,0 +1,50 @@
+
+
+
+.header {
+            background-color: red;
+            margin: 0;
+            margin-block: 0;
+}
+
+.web {
+            color: white;
+            font-weight: bold;
+
+}
+
+.lista {
+            padding: 0;
+            
+}
+.menu {
+            color: white;
+            text-decoration: none;
+            background-color: rgb(230, 121, 121);
+            margin: 0;
+            text-align: center;
+            padding: 2ch;
+}
+
+.titulo {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-block: 0;
+            padding-bottom: 2ch;
+}
+
+.cuerpo {
+            background-color: red;
+            color: white;
+            text-align: center;
+            margin-block: 0;
+            padding-bottom: 6ch;
+}
+
+.footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-block: 0;
+}
