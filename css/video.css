@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.cuerpo {
+            background-image: url(../images/img01.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+}
+
+.otrodiv {
+            display: flex;
+            margin-top: 30px;
+            justify-content: center;
+}
+
+.telefono {
+            display: flex column;
+            background: -webkit-linear-gradient(320deg, rgb(202, 16, 75),rgb(30, 30, 30));
+            border-style: solid;
+            border-radius: 40px;
+}
+
+.titulo {
+             text-align: center;
+             color: #ffffff;
+             padding: 7px;
+}
+
+
+video {
+            border-bottom-right-radius: 40px;
+            border-bottom-left-radius: 40px;
+            border-color: white;
+            margin: 0 10px 10px 10px;
+            border-style: solid;
+            border-width: 5px;   
+}
+
+.pie {
+           background-color: rgb(104, 42, 87);
+           color: #ffffff;
+           margin-top: 10px;
+           padding: 2px;
+           text-align: center;
+           text-decoration: none;
+}
