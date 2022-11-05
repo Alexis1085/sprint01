@@ -5,25 +5,32 @@
 
 .header {
             background-color: red;
-            display: flex;
+            /* display: flex; */
+            display: grid;
+            grid-template-columns: 1fr 1fr /*max-content*/ 1fr;
             align-items: center;
-            
-            
 }
 
 .web {
             color: white;
             font-weight: bold;
-            padding-left: 15px;
-            padding-right: 30px;
+            margin-left: 5%;
+            margin-right: 3%;
+}
+
+.web-header, textarea {
+    width: 50%;
 }
 
 .lista {
             padding: 0;
+            /* display: grid;
+            grid-template-columns: 1fr 1fr 1fr; */
             display: flex;
-        
-            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
 }
+
 .menu {
             color: white;
             text-decoration: none;
