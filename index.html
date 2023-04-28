@@ -10,42 +10,45 @@
 <body>
     <header class="header">
         
-        <form method="get">
-            <label class="web">WEB</label>
-            <input type="text" name="web" id="web" class="web-header">
-        </form>
+        <aside class="web">
+            <form method="get">
+                <label for="web" class="web-label">WEB</label>
+                <input type="text" name="web" id="web" class="web-input">
+            </form>
+        </aside>
 
         <nav>
             <ul class="lista">
             
-                    <a href="./index.html" class="menu">
+                    <li class="menu"><a href="./index.html">
                     HOME
-                    </a>
+                    </a></li>
 
-                    <a href="./index.html" class="menu">
+                    <li class="menu"><a href="./index.html">
                     MENU
-                    </a>
+                    </a></li>
                     
-                    <a href="./pages/video.html" class="menu">
+                    <li class="menu"><a href="./pages/video.html">
                     CONTENT
-                    </a>
-            </ul> 
+                    </a></li>
+            </ul>
         </nav>
 
     </header>
+
     <main>
-        <div class="titulo">
-            <h2 class="titulo">Titulo</h2>
+        <h2 class="titulo">Titulo</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum, placeat voluptates libero ad eum ex architecto impedit eligendi reprehenderit vel facere deleniti quibusdam itaque inventore, dolore dolorem praesentium nihil!</p>
-        </div>
-
-        <div class="cuerpo">
-            <h2 class="cuerpo">Primera seccion</h2>
-            <h2 class="cuerpo">Segunda seccion</h2>
-        </div> 
-    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum, placeat voluptates libero ad eum ex architecto impedit eligendi reprehenderit vel facere deleniti quibusdam itaque inventore, dolore dolorem praesentium nihil!</p>
     </main>
+
+    <section class="cuerpo">
+        <h2 class="titulo">Primera seccion</h2>
+    </section>
+    <section class="cuerpo">
+        <h2 class="titulo2">Segunda seccion</h2>
+    </section> 
+    
     <footer class="footer">
         <form method="post" action="./pages/contacto.html">
             <input type="text" name="contacto" id="contacto">

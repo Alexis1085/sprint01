@@ -1,63 +1,72 @@
 * {
     margin: 0;
+    padding: 0;
 }
-
 
 .header {
             background-color: red;
-            /* display: flex; */
             display: grid;
-            grid-template-columns: 1fr 1fr /*max-content*/ 1fr;
-            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
 }
 
 .web {
             color: white;
             font-weight: bold;
-            margin-left: 5%;
-            margin-right: 3%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 }
 
-.web-header, textarea {
+.web-input {
     width: 50%;
+    margin: auto 1.5rem;
 }
 
 .lista {
-            padding: 0;
-            /* display: grid;
-            grid-template-columns: 1fr 1fr 1fr; */
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
+            gap: 0.5rem;
 }
 
 .menu {
-            color: white;
-            text-decoration: none;
+            list-style: none;
             background-color: rgb(230, 121, 121);
-            
-            padding: 15px;
-            border-radius: 20px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            
-            justify-self: center;
+            width: 5rem;
+            text-align: center;
+            padding: 1rem 0.1rem;
+            border-radius: 1.1rem;
+            margin-top: 0.3rem;
+            margin-bottom: 0.3rem;
 }
 
-.titulo {
+.menu a {
+            color: white;
+            text-decoration: none;
+}
+
+main {
             background-color: black;
             color: white;
             text-align: center;
-            padding-top: 10px;
-            padding-bottom: 25px;
+            padding-bottom: 1rem;
+}
+
+.titulo {
+            padding-top: 1rem;
+            padding-bottom: 1.5rem;
 }
 
 .cuerpo {
             background-color: red;
             color: white;
             text-align: center;
-            padding-top: 10px;
-            padding-bottom: 60px;
+            padding-top: 0.6rem;
+            padding-bottom: 3.5rem;
+}
+
+.titulo2 {
+            padding-bottom: 3.5rem;
 }
 
 .footer {
